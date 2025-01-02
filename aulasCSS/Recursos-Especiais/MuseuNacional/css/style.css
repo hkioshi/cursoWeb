@@ -1,0 +1,25 @@
+
+body
+{
+    font-size: 1em;
+    background: white url(../image/fundo.png) repeat-x top left;
+    font: 12px "lucida grande", "trebuchet MS", verdana, arial, sans-serif;
+}  
+
+#container
+{
+    
+    width: 1080px;
+    margin: 0 auto;
+    
+    border: 1px solid greenyellow;
+}
+
+#logo a
+{
+    width: 248px;
+    height: 21px;
+    display: block;
+    text-indent: -9999px;
+    background: url(../image/logo.png) no-repeat;
+}

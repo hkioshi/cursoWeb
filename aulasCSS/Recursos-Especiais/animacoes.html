@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+        @-webkit-keyframes animacao
+        {
+            from
+            {
+                width: 300px;
+                height: 300px;
+                background: red;
+                border-radius: 0px;
+                top: 0px;
+                left: 0px;
+            }
+            to
+            {
+                width: 500px;
+                height: 500px;
+                background: blue;
+                border-radius: 300px;
+                top: 200px;
+                left: 200px;
+            }
+        }
+    
+        #caixa
+        {
+            position: relative;
+            background: red;
+            /* animation-name: animacao  ;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction:alternate ; */
+            size: 300px 300px;
+            animation: animacao 2s 3s infinite alternate;
+        }
+       
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="caixa">
+       
+    </div>
+</body>
+</html>

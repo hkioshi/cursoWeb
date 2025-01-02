@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divs e spans</title>
+    <style>
+        
+        #topo{
+            background-color: blue;
+        }
+        #conteudo
+        {
+            background-color: red;
+        }
+        #rodape
+        {
+            background-color: greenyellow;
+        }
+        #assinatura
+        {
+            background-color: pink;
+        }
+
+        .produto
+        {
+            background-color: gray;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- o div serve como divisoria -->
+    <div id="topo">
+        <img src="image/amazon.png" alt="" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    <!-- elemento do tipo block, ocupa a tela inteira -->
+    <div id="conteudo">
+        <div class="produto">
+            produto 1
+        </div>
+        <div class="produto">
+            produto 2
+        </div>
+        <div class="produto">
+            produto 3
+        </div>
+    </div>
+    <div id="rodape">
+        Todos os direito reservados
+    </div>
+   
+    <!-- o span é uma div que vai uma do lado do outro e o style funiona 
+     apenas em volta do elemento dentro do span -->
+    <span id="assinatura">
+        ola 
+    </span>
+    <span >
+        mundo
+    </span>
+    <p>paragrafo tambem é tipo bloco</p>
+</body>
+</html>

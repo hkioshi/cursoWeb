@@ -1,0 +1,143 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body
+{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+.centro
+{
+    
+}
+
+#logo
+{
+    font-size: 3em;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+#Tec
+{
+    
+    color: rgb(36, 14, 0);
+}
+
+#cabecalho
+{
+    background-color: #ffc336;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+a
+{
+    text-decoration: none;
+    
+}
+
+#cabecalho:link, :visited
+{
+    color: white;
+}
+
+
+.menu
+{
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+.menu:hover
+{
+    color: #ffc336;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#corpo
+{
+    position: relative;
+    
+
+    width: 920px;/*padrao utilizado*/
+    margin: 0px auto;
+}
+
+.lateral
+{
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#l
+{
+    float: right;
+
+}
+
+h3
+{
+    background-color: rgb(220, 220, 220);
+    padding: 5px;
+}
+
+.recente
+{
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+
+h2
+{
+    font-size: 1.7em;
+    color: #ffc336;
+}
+
+.materia
+{
+    width: 540px;
+    background-color: white;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+img
+{
+    padding-top: 15px;
+    width: 540px;
+
+}
+.info
+{
+    font-size: 1em;
+}
+
+.saibaMais
+{
+    color: #ffc336;
+}
+
+#clear
+{
+    clear: both;
+}
+
+#rodape
+{
+    text-align: center;
+}

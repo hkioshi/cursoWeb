@@ -1,0 +1,66 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body
+{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url(../image/fundo.png) repeat-x top left;
+}  
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+body.home #nav a#Home,
+body.brasil #nav a#Brasil,
+body.internacional #nav a#Internacional,
+body.saude #nav a#Saude,
+body.ciencia #nav a#Ciencia,
+body.economia #nav a#Economia,
+body.fotos #nav a#Fotos
+{
+    color: white ;
+    background: #de003e;
+    cursor:text
+}
+
+h2
+{
+    font-size: 1.1em;
+    padding: 5px;
+    background: #294c71;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h3
+{
+    font-size: 1em;
+    background: #b10333;
+    display: inline;    
+    padding: 2px;
+    color: white;
+}
+
+.container
+{
+    width: 750px;
+    margin: 0 auto;
+    /* border: 2px greenyellow solid; */
+
+}

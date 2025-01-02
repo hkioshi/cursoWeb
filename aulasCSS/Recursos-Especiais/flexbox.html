@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* flex-direction: row | row-reverse | column | column-reverse; */
+        /* flex-wrap: nowrap | wrap | wrap-reverse; */
+        /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; */
+        /* align-items: stretch | flex-start | flex-end | center | baseline; */
+        /* align-content: stretch | flex-start | flex-end | center | space-between | space-around; */
+        /*order: 1,2,3,4;*/
+        .conteudo
+        {
+            background: #b6b6b6;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+        .item
+        {
+            width: 200px;
+            height: 100px;
+            background: #fFF;
+            border: 1px solid greenyellow;
+            margin: 10px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 3em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .ordem1
+        {
+            order: 1;
+            /* flex-grow - definie proporçaõ de espaço ocupado
+            por um item */
+            flex-grow: 1;
+            /* flex-shrink - define a proporção de espaço que um item pode perder */
+            flex-shrink: 1;
+            /* flex-basis - define o tamanho base de um item */
+            flex-basis: 200px;
+
+        }
+        .ordem2
+        {
+            flex-grow: 2;
+
+            order: 2;
+        }
+        .ordem3
+        {
+            flex-shrink: 2;
+            order: 3;
+        }
+        .ordem4
+        {
+            flex-shrink: 5;
+            order: 4;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="item ordem2">01</div>
+        <div class="item ordem4">02</div>
+        <div class="item ordem1">03</div>
+        <div class="item ordem3">04</div>
+    </div>
+</body>
+</html>

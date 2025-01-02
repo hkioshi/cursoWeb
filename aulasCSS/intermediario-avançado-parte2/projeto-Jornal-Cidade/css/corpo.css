@@ -1,0 +1,127 @@
+#cont2
+{
+    margin: 77px auto;
+}
+
+#caixaE
+{
+    width: 25%;
+    float: left;
+}
+
+.box
+{
+    background: url(../image/fundo-caixa.png);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#entrevistas ul
+{
+    background: white;
+}
+
+#entrevistas ul a
+{
+    display: block;
+    padding: 10px;
+
+}
+
+#entrevistas ul a:hover
+{
+    text-indent: 15px;
+    background: url(../image/marcador.png) 2px center no-repeat;
+    color: #a1a1a1;
+}
+
+#news
+{
+    background: white;
+    padding: 10px;
+    
+}
+
+#news #email
+{
+    width: 95%;
+    height: 25px;
+}
+
+input[type="submit"]
+{
+    background:#b10333;
+    padding: 3px;
+    color: white;
+}
+
+#clear
+{
+    clear: both;
+}
+
+
+.caixaD
+{
+    width: 73%;
+    float: right;
+
+}
+
+.caixaD .box
+{
+    width: 44%;
+    float: right;
+    margin-right: 10px ;   
+}
+
+.conteudo
+{
+    font-size: 0.8em;
+    background: white;
+    padding: 10px;
+}
+
+.Saiba
+{
+    display: block;
+    text-decoration: underline;
+    color:#b10333 ;
+}
+
+.img1
+{
+    width: 99%;
+    
+}
+
+
+.miniLinha 
+{
+    padding: 2px;
+
+}
+.miniLinha h4
+{
+    font-size: 1em;
+    color: cadetblue;
+}
+.miniLinha p
+{
+    font-size: 1em;
+}
+.miniLinha img
+{
+    width: 40%;
+    float: left;
+    padding-right: 3px;
+
+}
+
+#rodape
+{
+    background: #294c71;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}

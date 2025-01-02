@@ -1,0 +1,25 @@
+ul
+{
+    list-style-type: none;
+    margin:  0px;
+    padding: 0px;
+}
+
+#lista2 a
+{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background:url(../image/menu.png) no-repeat;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+
+
+}
+#lista2 a:hover, #selecionado a
+{
+    background:url(../image/menu.png) no-repeat right;
+    color: white;
+}
