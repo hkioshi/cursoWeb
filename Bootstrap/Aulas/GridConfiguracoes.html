@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+
+    <style>
+      .marcador
+      {
+        background: #fe9d9d;
+        border: 1px solid #f94646;
+      }
+
+      .marcador-container
+      {
+        background: #5bf946;
+        border: 1px solid #36ae26;
+      }
+
+      .smooth
+      {
+        transition: 1s;
+      }
+    </style>
+    <title>Bootstrap - Configurações do grid</title>
+
+  </head>
+
+  <body>
+
+    <div class="container marcador-container"> 
+      <!-- col - sempre ficam uma do lado da outra -->
+      <h2 >Largura fixa</h2>
+      <div class="row">
+        <div class="col marcador">
+          area 1
+        </div>
+        <div class="col marcador">
+          area 2
+        </div>
+        <div class="col marcador">
+          area 3
+        </div>
+        <div class="col marcador">
+          area 4
+        </div>
+      </div>
+      <h2>Largura automática (auto-layout)</h2>
+      <div class="row">
+        <div class="col marcador">
+          area 1
+        </div>
+        <div class="col-4 marcador">
+          area 2
+        </div>
+        <div class="col-3 marcador">
+          area 3
+        </div>
+        <div class="col-2 marcador">
+          area 4
+        </div>
+      </div>
+      <h2>Largura igual empilhada</h2>
+      
+      <!-- ate um determindado tamanho uma em cima da outra
+       depois volta uma do lado da outra -->
+      <div class="row">
+        <div class="col-sm marcador">
+          area 1
+        </div>
+        <div class="col-sm marcador">
+          area 2
+        </div>
+        <div class="col-sm marcador">
+          area 3
+        </div>
+        <div class="col-sm marcador">
+          area 4
+        </div>
+      </div>
+      <h2>Ordenando</h2>
+
+      <div class="row">
+        <div class="col marcador order-3">
+          area 1
+        </div>
+        <div class="col marcador order-4">
+          area 2
+        </div>
+        <div class="col marcador order-1">
+          area 3
+        </div>
+        <div class="col marcador order-2">
+          area 4
+        </div>
+      </div>
+
+      <h2>offset</h2>
+      <div class="row">
+        <div class="col marcador col-md-6 offset-md-3">
+          area 1
+        </div>
+      </div>
+      <!-- o offset da um numero x de colunas de espaço à esquerda do container -->
+      <h2>offset múltiplos alinhamentos</h2>
+      <h2>offset</h2>
+      <div class="row">
+        <div class="col marcador col-md-3 offset-md-2">
+          area 1
+        </div>
+        <div class="col marcador col-md-3 offset-md-2">
+          area 1
+        </div>
+      </div>
+      <h2>Aninhamento</h2>
+        <div class="row">
+          <div class="col-md-6 marcador">
+            col-md-6
+            <div class="row">
+              <div class="col-md-6 marcador">conteudo 1</div>
+              <div class="col-md-6 marcador">conteudo 2</div>
+              
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="../bootstrap4/js/bootstrap.min.js"></script>
+  </body>
+</html>
