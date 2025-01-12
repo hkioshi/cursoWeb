@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nome = prompt("digite seu nome")
+        const altura = prompt("digite sua altura")
+        const peso = prompt("digite seu peso")
+
+        if(isNaN(altura) || isNaN(peso))
+        {
+            alert("coloque entradas validas")
+        }
+        else
+        {
+            altura = parseFloat(altura) / 100.00
+            const M = peso / (altura* altura)
+            if (M < 16) {
+                alert("Baixo peso muito grave");
+            } else if (M >= 16 && M <= 16.99) {
+                alert("Baixo peso grave");
+            } else if (M >= 17 && M <= 18.49) {
+                alert("Baixo peso");
+            } else if (M >= 18.50 && M <= 24.99) {
+                alert("Peso normal");
+            } else if (M >= 25 && M <= 29.99) {
+                alert("Sobrepeso");
+            } else if (M >= 30 && M <= 34.99) {
+                alert("Obesidade grau I");
+            } else if (M >= 35 && M <= 39.99) {
+                alert("Obesidade grau II");
+            } else if (M >= 40) {
+                alert("Obesidade grau III");
+            } else {
+                alert("Valor inválido");
+            }
+        
+        }
+    </script>
+</body>
+</html>
