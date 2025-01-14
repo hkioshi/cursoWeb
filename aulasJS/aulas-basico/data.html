@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function print(string)
+        {
+            string = string.toString()
+            document.write("<p>" + string + "</p>")
+            document.write("<hr>")
+        }
+
+        var data = new Date()
+        //dia 
+        print(data.getDate())
+        //mes
+        print(data.getMonth()+1 )
+
+
+        // adicionar ou remover dia
+        data.setDate(data.getDate() + 100)
+        print(data.toString())
+        data.setDate(data.getDate() - 1000)
+        print(data.toString())
+
+
+        // adicionar ou remover meses
+        data.setMonth(data.getMonth() + 100)
+        print(data.toString())
+        data.setMonth(data.getMonth() - 1000)
+        print(data.toString())
+        
+
+        // adicionar ou remover anos
+        data.setFullYear(data.getFullYear() + 10)
+        print(data.toString())
+        data.setFullYear(data.getFullYear() - 20)
+        print(data.toString())
+        
+
+        var data1 = new Date(2017, 1, 15)
+        var data2 = new Date(2017, 2, 15)
+
+
+        //data → numeros
+        print(data1.getTime() + "<br>" +data2.getTime)
+
+        //milissegundos entre datas
+        //abs - valor absoluto de um numero(sempre positivo) 
+        print(Math.abs( data1.getTime() - data2.getTime()))
+
+        var diff =data1.getTime() - data2.getTime()
+        var milissegundoDia = 1*24*3600*1000
+        print("1 dia tem : " + 1*24*3600*1000 + "milissegundo")
+
+        
+        print( math.round(diff / milissegundoDia))
+    </script>
+    
+</body>
+</html>
