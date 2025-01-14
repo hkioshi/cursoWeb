@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calcular(num1, num2, op)
+        {
+            if(op == "soma")
+            {
+                alert("O resultado é " + (parseInt(num1) + parseInt(num2)))
+            }
+            else if(op == "subtracao")
+            {
+                alert("O resultado é " + (parseInt(num1) - parseInt(num2)))
+
+            }
+            else
+            {
+                alert("Operação invalida")
+            }
+        }
+
+        const numero1 = prompt("Escreva um numero") 
+        const numero2 = prompt("Escreva um numero")
+        const op = prompt("soma ou subtracao")
+        calcular(numero1,numero2,op)
+        
+        
+    </script>
+</body>
+</html>
