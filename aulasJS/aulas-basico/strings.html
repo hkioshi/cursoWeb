@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function print(string)
+        {
+            document.write(string)
+            document.write("<br>")
+        }
+
+        let string = "Henr  ique"
+        print(string)
+        //lenght - tamanho da string
+        print("numero de chars"+string.length)
+        //indexof - primeira ocorrencia de um caracter em uma string  
+        print("posição de H - "+string.indexOf("H"))
+        //replace - troca uma cadeia de chars por outra
+        print(string.replace("enr"," quack "))
+        //substr - recupera uma substring
+        //string.substring(charInicial, numDeCharsRecuperados) 
+        print(string.substr(2,4))
+        //toLowerCase / toUpperCase 
+        //deixa todos os caracteres minusculos ou maiusculos respectivamente
+        print(string.toLowerCase())
+        print(string.toUpperCase())
+        //trim - tira espaços da string
+        print(string.trim())
+        
+    </script>
+</body>
+</html>
