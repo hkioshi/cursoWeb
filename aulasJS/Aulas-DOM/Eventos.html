@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        #box
+        {
+            display: flex;
+        }
+
+        body
+        {
+            text-align: center;
+
+        }
+        ul
+        {
+            margin: 0;
+            padding: 0;
+        }
+        li
+        {
+            width: 100px;
+            height: 50px;
+            background-color: cadetblue;
+            line-height: 50px;
+            list-style-type: none;
+            margin: 5px 0;
+            border-radius: 10px;
+            transition: 0.1s;
+        }
+        li:hover
+        {
+            color: white;
+            cursor: pointer;
+        }
+
+        input
+        {
+            width: 70px;
+        }
+
+
+        div
+        {
+            margin-right: 5px;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 10px;
+
+
+        }
+    </style>
+</head>
+<!-- onresize="acaor()" onscroll="acaos()" -->
+<body  >
+    <div id="box">
+        <div id="mouse">
+            <h1> Mouse </h1>
+            <ul>
+                <li onclick="acao()">onclick</li>
+                <li ondblclick="acao()">ondblclick</li>
+                <li onmouseover="acao()">onmouseover</li>
+                <li onmouseup="acao()">onmouseup</li>
+                <li onmouseout="acao()">onmouseout</li>
+            </ul>
+        </div>
+        <div id="teclado">
+            <h1> Teclado </h1>
+            <ul>
+                <li ><input onkeydown="tecla1()" type="text" placeholder="onfocus"></li>
+                <li ><input onkeydown="tecla2()" type="text" placeholder="onkeyup"> </li>        
+                <li ><input onkeydown="tecla3()" type="text" placeholder="onkeypress"></li>        
+            </ul>
+        </div>
+        <div id="Janela">
+            <h1>Janela</h1>
+            <ul>
+                <li >Onresize</li>
+                <li >Onscroll</li>
+            </ul>
+        </div>
+        <div id="Formulario">
+            <h1>Janela</h1>
+            <ul>
+                <li ><input onfocus="focus()" type="text" placeholder="onkeydown"></li>
+                <li ><input onblur="blur()" type="text" placeholder="onkeyup"> </li>        
+                <li ><select onchange="chang()" type="text" placeholder="onkeypress">
+                    <option value="1">opcao 1</option>
+                    <option value="2">opcao 2</option>
+                    <option value="3">opcao 3</option>
+                </select>  
+                <li>no log</li>      
+            </ul>
+        </div>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor s    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+    it amet consectetur adipisicing elit. Aliquam vel facere exercitationem quasi! Eius est ad vitae, alias quos sint commodi blanditiis illum dolore ipsa. Maxime at illo quae laudantium?</p>
+
+    
+    <script>
+        function acao()
+        {
+            alert("evento disparado")
+        }
+        function acaos()
+        {
+            alert("scroll")
+        }
+        function acaor()
+        {
+            alert("resize")
+        }
+        function tecla1()
+        {
+            alert("key down")
+        }
+        function tecla2()
+        {
+            alert("key press")
+        }
+        function tecla3()
+        {
+            alert("key up")
+        }
+        
+        function focus()
+        {
+            console.log("focus");
+        } 
+
+        function blur()
+        {
+            console.log("desfocus");
+        } 
+        function chang()
+        {
+            console.log("modificado");
+        } 
+
+        
+    </script>
+</body>
+</html>
