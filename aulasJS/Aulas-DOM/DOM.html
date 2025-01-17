@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        
+        <input 
+        type="text"
+        placeholder="Escreva seu nome"
+        id="ID"
+        class="CLASSE"
+        name="NOME"
+        >
+        <button onclick="escrever()">
+            Colocar na tela
+        </button>
+
+
+        <p></p>
+        <script>
+            var inputID = document.getElementById("ID")
+            var par = document.getElementsByTagName("p")
+            var inputsClass = document.getElementsByClassName("CLASSE")
+            var inputsName = document.getElementsByName("NOME")
+
+            function escrever()
+            {
+                console.log(inputID);
+                
+            }
+            
+        </script>
+    </body>
+</html>
