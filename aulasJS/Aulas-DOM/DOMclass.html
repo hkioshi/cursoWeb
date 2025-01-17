@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            transition: 0.5s;
+        }
+        button
+        {
+            width: 100px;
+            height: 50px;
+            margin: 10px 0;
+        }
+
+        .sty1
+        {
+            width: 500px;
+            height: 500px;
+            background-color: lightskyblue;
+            border: 10px solid darkred;
+            border-radius: 100px;
+            box-shadow: 10px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        .sty2
+        {
+            width: 700px;
+            height: 300px;
+            background-color: greenyellow;
+            border: 10px solid rebeccapurple;
+            border-radius: 10px;
+            box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
+
+
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <button onclick="aplicarClasse('sty1')"> Aplicar classe 1</button>
+    <button onclick="aplicarClasse('sty2')"> Aplicar classe 2</button>
+
+    <script>
+        function aplicarClasse(classe)
+        {
+            document.getElementById("box").className = ""
+            document.getElementById("box").className = classe
+        }
+    </script>
+</body>
+</html>
