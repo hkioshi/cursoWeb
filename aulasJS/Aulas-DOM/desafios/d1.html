@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <input onfocusout="focoSaiu()" onfocusin="porCor()" id="texto" type="text" style="height: 100px ; width: 200px; font-size: 2em;" >
+    <script>
+        function porCor()
+        {
+            document.getElementById("texto").style.backgroundColor = "yellow";
+        }
+    
+        function focoSaiu()
+        {
+            
+            const txt = document.getElementById("texto").value;
+            if(txt.length < 3)
+            {
+                document.getElementById("texto").style.backgroundColor = "#FF0000";
+
+            }
+            else
+            {
+                document.getElementById("texto").style.backgroundColor = "green";
+
+            }
+        }
+        
+    </script>
+</body>
+</html>
