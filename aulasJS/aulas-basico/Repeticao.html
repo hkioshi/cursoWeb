@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let x = 0;
+
+        // while(x <= 10)
+        // {
+        //     console.log(x);
+            
+        //     x++;
+        //     //break - interrompe loop
+        //     //continue - ignora o resto do codigo do loop e vai pra proxima etapa do loop
+        // }
+
+        // do {
+        //     //condição apos a primeira iteração
+        // } while (condition);
+
+        // for (variavel; condiçao; controle) {
+        //     codigo
+
+        // }
+
+        //Taboada
+        for (let index = 0; index <= 10; index++) {
+            for (let index2 = 0; index2 <= 10; index2++) {
+            document.write((index2 * index) + " ")
+            
+            }
+            document.write("<br>")
+        }
+ 
+        //for in
+        // for(let indices in coisa)
+        // {
+        //     console.log(coisa[indice]);
+        // }
+
+        //foreach
+        //é um metodo do array
+        //ele so funciona com indices numericos >= 0
+        let x = ['a','b','c'] 
+        x.forEach(
+        function(valor,indice,array)
+        {
+            console.log('array '+ array);
+            console.log('indice '+ indice);
+            console.log('valor '+ valor);
+    
+        });
+    </script>
+</body>
+</html>
