@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="texto" type="text">
+    <button onclick="add()">Adicionar</button>
+    <button onclick="sort()">Ordenar</button>
+    <script>
+        let objeto = Array('Cadeira','Impressora','Garfo');
+
+        function add()
+        {
+            const a = document.getElementById("texto").value;
+            if(a == '')
+            {
+                alert("Informe um valor")
+                return
+            }
+            if (objeto.indexOf(a) != -1) {
+                alert("Objeto ja adicionado");
+            } else {
+                objeto.push(a);
+                console.log(a + " adicionado");
+                document.getElementById("texto").value = '';
+            }
+
+
+        }
+
+        function sort()
+        {
+            objeto = objeto.sort();
+            console.log(objeto);
+            
+        }
+        
+    </script>
+</body>
+</html>
